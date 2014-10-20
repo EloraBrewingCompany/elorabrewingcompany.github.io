@@ -50,11 +50,11 @@ body {
 
 /* line 396, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: white;
-  color: #222222;
+  background: #a43a1c;
+  color: white;
   padding: 0;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
   line-height: 1.5;
@@ -1356,7 +1356,7 @@ select {
       color: #222222;
       padding: 1rem;
       display: block;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       /* line 143, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_accordion.scss */
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
@@ -1381,9 +1381,9 @@ select {
   padding: 0.875rem 1.5rem 0.875rem 0.875rem;
   font-size: 0.8125rem;
   transition: opacity 300ms ease-out;
-  background-color: #008cba;
-  border-color: #0078a0;
-  color: white; }
+  background-color: white;
+  border-color: #dbdbdb;
+  color: #4f4f4f; }
   /* line 113, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_alert-boxes.scss */
   .alert-box .close {
     font-size: 1.375rem;
@@ -1867,13 +1867,13 @@ select {
     font-size: 0.6875rem;
     line-height: 0.6875rem;
     text-transform: uppercase;
-    color: #008cba; }
+    color: white; }
     /* line 68, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
     .breadcrumbs > *:hover a, .breadcrumbs > *:focus a {
       text-decoration: underline; }
     /* line 70, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
     .breadcrumbs > * a {
-      color: #008cba; }
+      color: white; }
     /* line 75, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_breadcrumbs.scss */
     .breadcrumbs > *.current {
       cursor: default;
@@ -1919,7 +1919,7 @@ button, .button {
   border-style: solid;
   border-width: 0px;
   cursor: pointer;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   line-height: normal;
   margin: 0 0 1.25rem;
@@ -1934,16 +1934,16 @@ button, .button {
   padding-bottom: 1.0625rem;
   padding-left: 2rem;
   font-size: 1rem;
-  background-color: #008cba;
-  border-color: #007095;
-  color: white;
+  background-color: white;
+  border-color: #cccccc;
+  color: #333333;
   transition: background-color 300ms ease-out; }
   /* line 162, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
-    background-color: #007095; }
+    background-color: #cccccc; }
   /* line 168, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button:hover, button:focus, .button:hover, .button:focus {
-    color: white; }
+    color: #333333; }
   /* line 224, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.secondary, .button.secondary {
     background-color: #e7e7e7;
@@ -2041,21 +2041,21 @@ button, .button {
     border-radius: 1000px; }
   /* line 241, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.disabled, button[disabled], .button.disabled, .button[disabled] {
-    background-color: #008cba;
-    border-color: #007095;
-    color: white;
+    background-color: white;
+    border-color: #cccccc;
+    color: #333333;
     cursor: default;
     opacity: 0.7;
     box-shadow: none; }
     /* line 162, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #007095; }
+      background-color: #cccccc; }
     /* line 168, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      color: white; }
+      color: #333333; }
     /* line 179, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled:hover, button.disabled:focus, button[disabled]:hover, button[disabled]:focus, .button.disabled:hover, .button.disabled:focus, .button[disabled]:hover, .button[disabled]:focus {
-      background-color: #008cba; }
+      background-color: white; }
     /* line 242, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .button[disabled].secondary {
       background-color: #e7e7e7;
@@ -3574,7 +3574,7 @@ select {
   border: 1px solid #cccccc;
   padding: 0.5rem;
   font-size: 0.875rem;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   color: rgba(0, 0, 0, 0.75);
   line-height: normal;
   border-radius: 0;
@@ -3792,7 +3792,7 @@ label.error {
       height: 1.875rem; }
   /* line 168, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar > *:hover {
-    background: #008cba; }
+    background: white; }
   /* line 170, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_icon-bar.scss */
   .icon-bar > * label {
     color: white; }
@@ -4084,7 +4084,7 @@ kbd {
 /* line 91, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_labels.scss */
 .label {
   font-weight: normal;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   text-align: center;
   text-decoration: none;
   line-height: 1;
@@ -4094,8 +4094,8 @@ kbd {
   margin-bottom: inherit;
   padding: 0.25rem 0.5rem 0.25rem;
   font-size: 0.6875rem;
-  background-color: #008cba;
-  color: white; }
+  background-color: white;
+  color: #333333; }
   /* line 96, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_labels.scss */
   .label.radius {
     border-radius: 3px; }
@@ -4470,13 +4470,13 @@ ul.pagination {
       background: transparent; }
     /* line 68, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_pagination.scss */
     ul.pagination li.current a, ul.pagination li.current button {
-      background: #008cba;
+      background: white;
       color: white;
       font-weight: bold;
       cursor: default; }
       /* line 75, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_pagination.scss */
       ul.pagination li.current a:hover, ul.pagination li.current a:focus, ul.pagination li.current button:hover, ul.pagination li.current button:focus {
-        background: #008cba; }
+        background: white; }
   /* line 136, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_pagination.scss */
   ul.pagination li {
     float: left;
@@ -4521,10 +4521,10 @@ ul.pagination {
   .panel.callout {
     border-style: solid;
     border-width: 1px;
-    border-color: #b6edff;
+    border-color: #e3e3e3;
     margin-bottom: 1.25rem;
     padding: 1.25rem;
-    background: #ecfaff;
+    background: white;
     color: #333333; }
     /* line 54, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_panels.scss */
     .panel.callout > :first-child {
@@ -4544,7 +4544,7 @@ ul.pagination {
         line-height: 1.4; }
     /* line 83, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_panels.scss */
     .panel.callout a:not(.button) {
-      color: #008cba; }
+      color: white; }
   /* line 88, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_panels.scss */
   .panel.radius {
     border-radius: 3px; }
@@ -4567,7 +4567,7 @@ ul.pagination {
     color: #eeeeee;
     font-weight: normal;
     font-size: 1rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 143, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
   .pricing-table .price {
     background-color: #f6f6f6;
@@ -4576,7 +4576,7 @@ ul.pagination {
     color: #333333;
     font-weight: normal;
     font-size: 2rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 144, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_pricing-tables.scss */
   .pricing-table .description {
     background-color: white;
@@ -4612,7 +4612,7 @@ ul.pagination {
   margin-bottom: 0.625rem; }
   /* line 61, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_progress-bars.scss */
   .progress .meter {
-    background: #008cba;
+    background: white;
     height: 100%;
     display: block; }
   /* line 64, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_progress-bars.scss */
@@ -4684,22 +4684,22 @@ ul.pagination {
     border-radius: 3px; }
     /* line 146, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
     .range-slider.radius .range-slider-handle {
-      background: #008cba;
+      background: white;
       border-radius: 3px; }
       /* line 115, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
       .range-slider.radius .range-slider-handle:hover {
-        background: #007ba4; }
+        background: #e0e0e0; }
   /* line 148, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
   .range-slider.round {
     background: #fafafa;
     border-radius: 1000px; }
     /* line 150, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
     .range-slider.round .range-slider-handle {
-      background: #008cba;
+      background: white;
       border-radius: 1000px; }
       /* line 115, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
       .range-slider.round .range-slider-handle:hover {
-        background: #007ba4; }
+        background: #e0e0e0; }
   /* line 152, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
   .range-slider.disabled, .range-slider[disabled] {
     background: #fafafa;
@@ -4707,12 +4707,12 @@ ul.pagination {
     opacity: 0.7; }
     /* line 154, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
     .range-slider.disabled .range-slider-handle, .range-slider[disabled] .range-slider-handle {
-      background: #008cba;
+      background: white;
       cursor: default;
       opacity: 0.7; }
       /* line 115, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
       .range-slider.disabled .range-slider-handle:hover, .range-slider[disabled] .range-slider-handle:hover {
-        background: #007ba4; }
+        background: #e0e0e0; }
 
 /* line 157, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
 .range-slider-active-segment {
@@ -4733,10 +4733,10 @@ ul.pagination {
   cursor: pointer;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  background: #008cba; }
+  background: white; }
   /* line 115, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_range-slider.scss */
   .range-slider-handle:hover {
-    background: #007ba4; }
+    background: #e0e0e0; }
 
 /* line 164, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_reveal.scss */
 .reveal-modal-bg {
@@ -4898,7 +4898,7 @@ dialog {
   padding: 0.875rem 0;
   list-style-type: none;
   list-style-position: outside;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
   /* line 70, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
   .side-nav li {
     margin: 0 0 0.4375rem 0;
@@ -4907,18 +4907,18 @@ dialog {
     /* line 75, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
     .side-nav li a:not(.button) {
       display: block;
-      color: #008cba;
+      color: white;
       margin: 0;
       padding: 0.4375rem 0.875rem; }
       /* line 81, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
       .side-nav li a:not(.button):hover, .side-nav li a:not(.button):focus {
         background: rgba(0, 0, 0, 0.025);
-        color: #1cc7ff; }
+        color: white; }
     /* line 87, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
     .side-nav li.active > a:first-child:not(.button) {
-      color: #1cc7ff;
+      color: white;
       font-weight: normal;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif; }
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; }
     /* line 93, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
     .side-nav li.divider {
       border-top: 1px solid;
@@ -4928,7 +4928,7 @@ dialog {
       border-top-color: white; }
     /* line 101, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_side-nav.scss */
     .side-nav li.heading {
-      color: #008cba;
+      color: white;
       font-size: 0.875rem;
       font-weight: bold;
       text-transform: uppercase; }
@@ -5060,7 +5060,7 @@ dialog {
     display: inline;
     margin-left: 1rem;
     margin-bottom: 0.625rem;
-    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 0.875rem;
     color: #999999; }
@@ -5082,7 +5082,7 @@ dialog {
     .sub-nav li.active a {
       border-radius: 3px;
       font-weight: normal;
-      background: #008cba;
+      background: white;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
@@ -5090,7 +5090,7 @@ dialog {
       .sub-nav dt.active a:hover,
       .sub-nav dd.active a:hover,
       .sub-nav li.active a:hover {
-        background: #0078a0; }
+        background: #dbdbdb; }
 
 /* line 200, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_switches.scss */
 .switch {
@@ -5138,7 +5138,7 @@ dialog {
     transform: translate3d(0, 0, 0); }
   /* line 95, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_switches.scss */
   .switch input:checked + label {
-    background: #008cba; }
+    background: white; }
   /* line 99, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_switches.scss */
   .switch input:checked + label:after {
     left: 2.25rem; }
@@ -5162,7 +5162,7 @@ dialog {
     background: white; }
   /* line 148, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_switches.scss */
   .switch input:checked + label {
-    background: #008cba; }
+    background: white; }
   /* line 111, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_switches.scss */
   .switch.large label {
     width: 5rem;
@@ -5467,12 +5467,13 @@ td {
 /* Default Link Styles */
 /* line 217, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
 a {
-  color: #008cba;
+  color: white;
   text-decoration: none;
   line-height: inherit; }
   /* line 223, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
   a:hover, a:focus {
-    color: #0078a0; }
+    color: #dbdbdb;
+    text-decoration: underline; }
   /* line 230, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
   a img {
     border: none; }
@@ -5499,10 +5500,10 @@ p {
 /* Default header styles */
 /* line 252, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
   font-weight: normal;
   font-style: normal;
-  color: #222222;
+  color: white;
   text-rendering: optimizeLegibility;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem;
@@ -5510,7 +5511,7 @@ h1, h2, h3, h4, h5, h6 {
   /* line 262, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
   h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
     font-size: 60%;
-    color: #6f6f6f;
+    color: white;
     line-height: 0; }
 
 /* line 269, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5540,7 +5541,7 @@ h6 {
 /* line 276, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
 .subheader {
   line-height: 1.4;
-  color: #6f6f6f;
+  color: white;
   font-weight: normal;
   margin-top: 0.2rem;
   margin-bottom: 0.5rem; }
@@ -5656,7 +5657,7 @@ abbr,
 acronym {
   text-transform: uppercase;
   font-size: 90%;
-  color: #222222;
+  color: white;
   cursor: help; }
 
 /* line 391, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5676,20 +5677,20 @@ blockquote {
   blockquote cite {
     display: block;
     font-size: 0.8125rem;
-    color: #555555; }
+    color: white; }
     /* line 408, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
     blockquote cite:before {
       content: "\2014 \0020"; }
     /* line 413, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
     blockquote cite a,
     blockquote cite a:visited {
-      color: #555555; }
+      color: white; }
 
 /* line 419, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
 blockquote,
 blockquote p {
   line-height: 1.6;
-  color: #6f6f6f; }
+  color: white; }
 
 /* Microformats */
 /* line 425, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_type.scss */
@@ -5857,7 +5858,7 @@ blockquote p {
       background-color: #efefef;
       color: #222222;
       padding: 1rem 2rem;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 1rem; }
       /* line 49, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_tabs.scss */
       .tabs dd > a:hover, .tabs .tab-title > a:hover {
@@ -5947,7 +5948,7 @@ blockquote p {
   transition: all 200ms ease-out; }
   /* line 49, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_thumbs.scss */
   .th:hover, .th:focus {
-    box-shadow: 0 0 6px 1px rgba(0, 140, 186, 0.5); }
+    box-shadow: 0 0 6px 1px rgba(255, 255, 255, 0.5); }
   /* line 63, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_thumbs.scss */
   .th.radius {
     border-radius: 3px; }
@@ -5961,8 +5962,8 @@ blockquote p {
   color: #333333; }
   /* line 45, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .has-tip:hover, .has-tip:focus {
-    border-bottom: dotted 1px #003f54;
-    color: #008cba; }
+    border-bottom: dotted 1px #737373;
+    color: white; }
   /* line 51, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .has-tip.tip-left, .has-tip.tip-right {
     float: none !important; }
@@ -6007,8 +6008,8 @@ blockquote p {
       left: 2rem; }
   /* line 95, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_tooltips.scss */
   .tooltip.opened {
-    color: #008cba !important;
-    border-bottom: dotted 1px #003f54 !important; }
+    color: white !important;
+    border-bottom: dotted 1px #737373 !important; }
 
 /* line 101, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_tooltips.scss */
 .tap-to-close {
@@ -6224,7 +6225,7 @@ meta.foundation-mq-topbar {
       color: white;
       padding: 12px 0 12px 0;
       padding-left: 15px;
-      font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
       font-size: 0.8125rem;
       font-weight: normal;
       text-transform: none; }
@@ -6233,15 +6234,15 @@ meta.foundation-mq-topbar {
         font-size: 0.8125rem;
         padding-right: 15px;
         padding-left: 15px;
-        background-color: #008cba;
-        border-color: #007095;
-        color: white; }
+        background-color: white;
+        border-color: #cccccc;
+        color: #333333; }
         /* line 162, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          background-color: #007095; }
+          background-color: #cccccc; }
         /* line 168, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
         .top-bar-section ul li > a.button:hover, .top-bar-section ul li > a.button:focus {
-          color: white; }
+          color: #333333; }
       /* line 322, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > a.button.secondary {
         background-color: #e7e7e7;
@@ -6280,15 +6281,15 @@ meta.foundation-mq-topbar {
       font-size: 0.8125rem;
       padding-right: 15px;
       padding-left: 15px;
-      background-color: #008cba;
-      border-color: #007095;
-      color: white; }
+      background-color: white;
+      border-color: #cccccc;
+      color: #333333; }
       /* line 162, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-        background-color: #007095; }
+        background-color: #cccccc; }
       /* line 168, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_buttons.scss */
       .top-bar-section ul li > button:hover, .top-bar-section ul li > button:focus {
-        color: white; }
+        color: #333333; }
       /* line 333, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li > button.secondary {
         background-color: #e7e7e7;
@@ -6329,11 +6330,11 @@ meta.foundation-mq-topbar {
       color: white; }
     /* line 349, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar-section ul li.active > a {
-      background: #008cba;
+      background: white;
       color: white; }
       /* line 352, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section ul li.active > a:hover {
-        background: #0078a0;
+        background: #dbdbdb;
         color: white; }
   /* line 360, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .top-bar-section .has-form {
@@ -6498,10 +6499,10 @@ meta.foundation-mq-topbar {
       padding: 0 15px;
       line-height: 45px;
       color: white;
-      background: #008cba; }
+      background: white; }
       /* line 514, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
       .top-bar-section li.active:not(.has-form) a:not(.button):hover {
-        background: #0078a0;
+        background: #dbdbdb;
         color: white; }
     /* line 526, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
     .top-bar-section .has-dropdown > a {
@@ -6619,7 +6620,7 @@ meta.foundation-mq-topbar {
     color: white; }
   /* line 659, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section ul li:active > a {
-    background: #008cba;
+    background: white;
     color: white; }
   /* line 667, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_top-bar.scss */
   .no-js .top-bar-section .has-dropdown:hover > .dropdown {
@@ -7539,55 +7540,83 @@ th.hide-for-touch {
   th.show-for-print {
     display: table-cell !important; } }
 /* line 5, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
-header {
-  width: 100%;
+body .bg {
+  background: url("../images/ebc-bg.jpg") no-repeat center;
+  text-align: center;
+  height: 1000px;
+  display: block;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover; }
+/* line 15, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+body .logo {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 50%;
+  float: left;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 62.5rem;
-  padding-bottom: 0.625rem; }
-  /* line 172, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_global.scss */
-  header:before, header:after {
-    content: " ";
-    display: table; }
-  /* line 173, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_global.scss */
-  header:after {
-    clear: both; }
-  /* line 8, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
-  header .logo {
+  float: none; }
+  /* line 17, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+  body .logo img {
+    display: block;
+    margin: 4rem auto 1rem auto; }
+/* line 23, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+body .message {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  font-family: "Georgia";
+  font-size: 1.5rem;
+  text-align: center; }
+/* line 32, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+body .contacts {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 50%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none; }
+  /* line 34, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+  body .contacts .social-links {
+    text-align: center;
     padding-left: 0.9375rem;
     padding-right: 0.9375rem;
-    width: 25%;
+    width: 100%;
     float: left;
     margin-left: auto;
     margin-right: auto;
     float: none; }
-
-/* line 14, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
-.main-content {
-  width: 100%;
+    /* line 37, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+    body .contacts .social-links img {
+      margin: 1rem 0.2rem; }
+/* line 43, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+body .map {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 66.66667%;
+  float: left;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  max-width: 62.5rem; }
-  /* line 172, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_global.scss */
-  .main-content:before, .main-content:after {
-    content: " ";
-    display: table; }
-  /* line 173, /Users/jim/dev/ebc-web/source/bower_components/foundation/scss/foundation/components/_global.scss */
-  .main-content:after {
-    clear: both; }
-  /* line 17, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
-  .main-content aside {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 50%;
-    float: left; }
-  /* line 24, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
-  .main-content article {
-    padding-left: 0.9375rem;
-    padding-right: 0.9375rem;
-    width: 50%;
-    float: left; }
+  float: none; }
+  /* line 45, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+  body .map img {
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    background-color: white; }
+/* line 53, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+body .address {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 50%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  text-align: center; }
