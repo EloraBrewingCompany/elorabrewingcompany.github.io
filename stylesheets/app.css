@@ -7620,3 +7620,16 @@ body .address {
   margin-right: auto;
   float: none;
   text-align: center; }
+/* line 58, /Users/jim/dev/ebc-web/source/stylesheets/app.css.scss */
+body .phone {
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
+  width: 100%;
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+  font-family: "Georgia";
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  text-align: center; }
